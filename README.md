@@ -1,4 +1,4 @@
-## Steps to run
+## Steps to run:
 
 ```bash
 $ yarn install
