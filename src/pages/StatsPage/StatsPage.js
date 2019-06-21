@@ -63,7 +63,7 @@ const StatsPage = (props) => {
           if (error) return `Error! ${error.message}`;
 
           let sortedAnts = [...data.ants];
-          sortedAnts = sortedAnts.sort(function(a,b) {
+          sortedAnts.sort(function(a,b) {
             const calcA = props.calculations[getKey(a.name)];
             const calcB = props.calculations[getKey(b.name)];
             if (calcA === undefined && calcA === undefined) return 0;
