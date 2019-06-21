@@ -9,4 +9,5 @@ $ yarn start
 
 This project was made with:
 
-[Create React App](https://facebook.github.io/create-react-app/) + [Ant Design](https://ant.design).
+[Ant Design](https://ant.design) +
+[Create React App Antd](https://github.com/ant-design/create-react-app-antd)
